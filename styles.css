@@ -4,7 +4,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
+a{
+    text-decoration: none;
+   color: black;
+}
 
 header{
     display: flex;
@@ -46,6 +49,9 @@ header{
       font-size: 20px;
       color: rgba(10, 161, 248, 0.774);
       
+    }
+    .these {
+        color:white;
     }
 .login{
 background-color: transparent;
@@ -361,6 +367,110 @@ font-size: 400%;
          font-weight: lighter;
        }
 
+.head{
+  background-color: rgb(236, 236, 236); 
+ 
+}
+.sndnav{
+    color: black;
+}
+.imagesPage2{
+display: grid;
+grid-gap: 20px;
+grid-template-columns:repeat(3,1fr) ;
+width: 50%;
+margin-left: 50px;
+margin-right: 50px;
+
+
+}
+.myh3,p{
+    margin-left: 50px;
+}
+
+.booking{
+    background-color:rgba(10, 161, 248, 0.774);
+    color: white;
+    height: 50px;
+    border:none;
+    border-radius: 4px;
+    width: 150px;
+    margin-left: 900px;
+   
+}
+.bookings{
+    background-color:rgba(10, 161, 248, 0.774);
+    color: white;
+    height: 50px;
+    border:none;
+    border-radius: 4px;
+    width: 150px;
+    margin-left: 50px;
+}
+.loginNow{
+    color:rgba(10, 161, 248, 0.774);
+    background-color: white;
+    height: 50px;
+    border-color:rgba(10, 161, 248, 0.774) ;
+    border-radius: 5px;
+    width: 150px;
+  
+   
+
+}
+.otherdiv{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+ grid-gap: 20px;
+
+
+    
+}
+.majordiv img{
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+.otherdiv img{
+    width:170px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+.make-small{
+    font-size: 30px;
+    text-align: start;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.imgAndWords{
+    display: grid;
+   grid-auto-flow:column ; 
+   grid-gap: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.live img{
+width:100%;
+border-radius: 200px 0px ;
+height:450px ;
+
+}
+.lives img{
+    width:100%;
+    border-radius: 0px 200px ;
+    height:450px ;  
+}
+
 @media (max-width: 800px){
     .Snd-Div,.Trd-Div{
         grid-template-columns: 1fr;
@@ -402,5 +512,3 @@ h1{
 }
 
 }
-
-
