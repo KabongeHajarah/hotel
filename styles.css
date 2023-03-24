@@ -443,8 +443,14 @@ margin-right: 50px;
     margin-left: 50px;
 }
 
-
-
+.about{
+   font-size: 50px;
+   margin-left: 47%; 
+}
+.story{
+    margin-right: 48%;
+font-size: 40px;
+}
 
 
 
@@ -460,18 +466,29 @@ margin-right: 50px;
    margin-right: 50px;
 }
 .live img{
-width:100%;
+width:110%;
 border-radius: 200px 0px ;
-height:450px ;
+height:100% ;
+
 
 }
 .lives img{
-    width:100%;
+    width:110%;
     border-radius: 0px 200px ;
-    height:450px ;  
+    height:100% ; 
+  
+}
+.loginbutton{
+    background-color: white;
+ color: rgba(10, 161, 248, 0.774);
+ width:80px;
+ height: 30px;
+ border-color:rgba(10, 161, 248, 0.774);
+ border-radius: 5px;
+ margin-left: 50px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 994px){
     .Snd-Div,.Trd-Div{
         grid-template-columns: 1fr;
 
@@ -481,15 +498,21 @@ body{
     margin: 0px;
     padding: 0px;
     font-size: 20px;
+    overflow-x: hidden;
+    
+}
+.imgAndWords{
+   grid-template-columns: 1fr;
 }
 h1{
     font-size: x-small;
     
 }
-.fth-Div,.Trd-Div, .offer, .last,.th-Div,.girl-section{
+.fth-Div,.Trd-Div, .offer, .last,.th-Div,.girl-section,.imgAndWords, .imagesPage2{
     display: flex;
     flex-direction: column;
     grid-template-columns: 1fr;
+    margin: 0px;
     
 }
 .Snd-Div{
@@ -504,11 +527,22 @@ h1{
     body{
         margin:0px ;
         padding: 0px;
+        overflow-x: hidden;
     }
 .girl-section{
     display:flex ;
     flex-direction: row;
     
 }
+.fth-Div,.Trd-Div, .offer, .last,.th-Div,.girl-section,.imgAndWords, .imgAndWords,.imagesPage2{
+    margin: 0px;
+}
+
 
 }
+body{
+ 
+    
+
+}
+
