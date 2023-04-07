@@ -118,3 +118,12 @@ header{
         .footermain li{
            color: black; 
         }
+        @media(max-width:200px){
+body{
+   overflow-x: hidden; 
+}
+#contact-form input{
+  display: flex;
+  flex-direction: column;
+}
+        }
